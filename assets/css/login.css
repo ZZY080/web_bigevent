@@ -29,7 +29,7 @@ video {
 /* 登录注册 */
 .loginAndRegBox {
     width: 400px;
-    height: 310px;
+    height: 370px;
     background-color:rgba(0,0,0,.09);
     position: absolute;
     left: 50%;
@@ -47,3 +47,32 @@ video {
     display: none;
 }
 
+.layui-form {
+    padding: 0 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+.links a {
+    font-size: 15px;
+    color: white;
+    background-color: rgba(0,0,0,.1);
+}
+.layui-form-item {
+    position: relative;
+}
+.layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 8.5px;
+}
+.layui-input {
+    padding-left: 32px;
+    background: rgba(0,0,0,.1);
+    color: white;
+}
+.layui-btn {
+    background: rgba(0,0,0,.1);
+}
